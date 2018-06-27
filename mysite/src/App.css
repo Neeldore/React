@@ -1,8 +1,22 @@
-.navbar-text{
+.navbar-text {
   position: absolute;
   left: 47%;
 }
-.carousel-item > img{
+
+.carousel-item>img {
   height: 100%;
   width: 100%;
+}
+
+.image-container {
+  width: 165px;
+  margin: 0px auto;
+}
+
+.image-profile {
+  width: 100%;
+}
+
+.description-text {
+  font-size: 42px;
 }
