@@ -3,7 +3,7 @@ import './common/css/bootstrap.min.css';
 import './App.css';
 
 import profile from './profile.js';
-import skills from './skills.js';
+import Skills from './skills.js';
 import blog from './Blog.js';
 
 class Header extends Component {
@@ -22,7 +22,7 @@ class Header extends Component {
     if(this.state.currentlyActive === "HOME")
       return profile();
     if(this.state.currentlyActive === "SKILL")
-      return skills();
+      return <Skills />
     if(this.state.currentlyActive === "BLOG")
       return blog();
   }
