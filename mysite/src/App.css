@@ -17,6 +17,28 @@
   width: 100%;
 }
 
+.image-holder {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.summary{
+  margin-bottom: 45px;
+}
+
+
+
+.image-center-main {
+  width: 100%;
+  height: auto;
+}
+
+
+
 .description-text {
   font-size: 42px;
 }

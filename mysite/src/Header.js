@@ -1,11 +1,7 @@
 import React, {Component} from 'react';
-import './common/css/bootstrap.min.css'
+import './common/css/bootstrap.min.css';
 import './App.css';
 
-// import vue from './common/images/vue.jpg';
-// // import react from './common/images/react.png';
-// import angular from './common/images/angular.png';
-// import coolGuy from './common/images/coolguy.jpg';
 import profile from './profile.js';
 import skills from './skills.js';
 import blog from './Blog.js';
@@ -14,10 +10,10 @@ class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentlyActive: "HOME"
+      currentlyActive: "SKILL"
     }
   }
-  determineActive = function (current) {}
+  
   amIActive = function (current) {
     if (current === this.state.currentlyActive) 
       return 'active';
