@@ -10,7 +10,7 @@ class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentlyActive: "SKILL"
+      currentlyActive: "BLOG"
     }
   }
   
@@ -46,27 +46,27 @@ class Header extends Component {
               <ul className="navbar-nav mr-auto ">
 
                 <li className="nav-item active">
-                  <a className="nav-link" onClick={()=>{
+                  <span style={{cursor:'pointer'}} className="nav-link" onClick={()=>{
                     this.setState({
                       currentlyActive : "HOME"
                     })
                   }}>Home
                     <span className="sr-only">(current)</span>
-                  </a>
+                  </span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" onClick={()=>{
+                  <span style={{cursor:'pointer'}} className="nav-link" onClick={()=>{
                     this.setState({
                       currentlyActive : "SKILL"
                     })
-                  }}>Skills</a>
+                  }}>Skills</span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" onClick={()=>{
+                  <span style={{cursor:'pointer'}} className="nav-link" onClick={()=>{
                     this.setState({
                       currentlyActive : "BLOG"
                     })
-                  }}>Blog</a>
+                  }}>Blog</span>
                 </li>
               </ul>
               <form className="form-inline my-2 my-lg-0">

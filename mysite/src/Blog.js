@@ -1,31 +1,23 @@
-import React from 'react';
+import React from "react";
 // import me from './common/images/me.jpg';
 
-  export default function (){
-        return (
-    
-          <div className="">
-                <div className="display-4">Blogs</div>
-                <div className="row">
-  <div className="col-4">
-    <div className="list-group" id="list-tab" role="tablist">
-      <a className="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-      <a className="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-      <a className="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-      <a className="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-    </div>
-  </div>
-  <div className="col-8">
-    <div className="tab-content" id="nav-tabContent">
-      <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Something cool about something epi </div>
-      <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
-      <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-      <div className="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
-    </div>
-  </div>
-</div>
+export default function() {
+  return (
+    <div className="container container-fluid">
+      <div className="row">
+        <div className="col col-md-4 blog-menu">
+          <div className="list-group mx-3 mt-3">
+            <button className="list-group-item">Click me Lad</button>
+            <button className="list-group-item">Click me Lad</button>
+            <button className="list-group-item">Click me Lad</button>
+            <button className="list-group-item">Click me Lad</button>
+            <button className="list-group-item">Click me Lad</button>
+            <button className="list-group-item">Click me Lad</button>
+            <button className="list-group-item">Click me Lad</button>
           </div>
-    
-        );
-      }
-
+        </div>
+        <div className="col col-md-10"> </div>
+      </div>
+    </div>
+  );
+}
